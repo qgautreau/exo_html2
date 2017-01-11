@@ -1,0 +1,12 @@
+label {
+    display: block;
+    margin: 1em;
+}
+
+input {
+    width: 20em;
+}
+
+form {
+    width: 30em;
+}

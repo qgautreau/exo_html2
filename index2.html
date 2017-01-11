@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="./css/style2.css">
+        <title>Formulaire de contact</title>
+    </head>
+
+
+    <body>
+        <section>
+            <h2>Contact</h2>
+            <form action="http://live.codincamp.fr/mail.php" method="post">
+
+                <fieldset id="informations">
+                    <legend>Vos informations</legend>
+                    <label for="name">Votre nom</label>
+                    <input type="text" name="name" id="name"/>
+                    <label for="email">Votre email</label>
+                    <input type="email" name="email" id="email"/>
+                </fieldset>
+
+                <fieldset id="votre_message">
+                    <legend>Votre message</legend>
+                    <label for="subject">Sujet</label>
+                    <input type="text" name="subject" id="subject"/>
+                    <label for="message">Votre message</label>
+                    <textarea cols="50" rows="20" name="message" id="message"></textarea>
+                </fieldset>
+
+                <input type="submit" name="envoyer" value="Envoyer" id="envoyer"/>
+
+
+            </form>
+
+        </section>
+
+
+    </body>
+
+</html>
